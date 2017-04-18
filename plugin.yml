@@ -1,0 +1,15 @@
+name: ProvidenceRegions
+version: 1.0.0
+author: Mahtaran
+main: me.mahtaran.ProvidenceRegions.ProvidenceRegions
+depend: [WorldGuard, WorldEdit]
+commands:
+  prg:
+    description: "/prg create <name of region>\n/prg add <enter|leave> <name of region> -title <title> -subtitle <subtitle>\n/prg delete <name of region>\n/prg reload"
+permissions:
+   prg.*:
+     default: op
+   prg.create:
+     default: op
+   prg.delete:
+     default: op
